@@ -8,6 +8,10 @@ while i<=100
 		puts "Fizz"
 	elsif i%5==0
 		puts "Buzz"
+	elsif i%7==0
+		puts "git"
 	else
 		puts "#{i}"
 	end
+	i += 1
+end
